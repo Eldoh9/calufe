@@ -1,0 +1,745 @@
+*{
+    color: #5f4b3c;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Montserrat;
+}
+
+
+/* Nav*/
+
+nav {
+    background-color: rgba(246, 240, 225, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex
+}
+
+.contnav {
+    font-family: Montserrat;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+    line-height: 12px;
+    text-align: center;
+}
+
+.logonav {
+    width: 110px;
+}
+
+.elnav {
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 0.8rem;    
+}
+
+.elnav:hover {
+    transition: all .3s ease;
+    transform: scale(1.1) translateY(-2px);
+}
+
+a {
+    text-decoration: none;
+    color: #5f4b3c;
+}
+
+.navbar-calufe .navbar-toggler {
+    border-color: #0c0e20;
+    box-shadow: none;
+}
+
+.navbar-calufe .navbar-toggler:focus {
+    box-shadow: 0 0 0 2px rgba(12, 14, 32, 0.15);
+}
+
+
+/*hero*/
+.hero{
+    background-image: url(imagenes/hero_fondo.png);
+    padding-left: 90px;
+    padding-right: 90px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100dvh;
+}
+
+h1 {
+    padding-top: 150px;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.hero p {
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+.imagen-estatica{
+    background-image: url(imagenes/hero_frente.png);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+/*form*/
+
+.crezcamosjuntos {
+    background-image: url(imagenes/crezcamosjuntos-fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+form {
+    text-align: center;
+    color: white;
+    background: linear-gradient(
+    45deg,
+    rgba(246, 240, 225, 0.8),
+    40%,   
+    rgba(210, 115, 52, 0.8)    
+    );
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.formulario {
+    background-image: url(imagenes/form-fondo.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100dvh;
+}
+
+.datos {
+    appearance: none;
+    margin: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 80%;
+    color: white;
+}
+
+.datos::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+legend {
+    color: white;
+    font-weight: 700;
+}
+
+.boton {
+    appearance: none;
+    background-color: #f6f0e1;
+    color: #5f4b3c;
+    border: solid 0px;
+    border-radius: 999em;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 2%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 40%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.boton:active {
+    transition: all .3s ease;
+    transform: scale(1.3) translateY(-2px);
+}
+
+.boton:hover {
+    transition: all .8s ease;
+    color: white; 
+    background-color: #5f4b3c;
+}
+
+/*diferenciadores*/
+
+.lomejor {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+
+.crezcamosjuntos h2{
+    color: white;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.diferenciadores {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.diferenciadores img {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.diferenciadores:hover {
+    transform: scale(1.03);
+    transition: all .3s ease;
+}
+
+/*modelos de franquicia*/
+
+.modelos {
+    padding-left: 250px;
+    padding-right: 250px;
+    background-image: url(imagenes/modelos-fondo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.modfran {
+    background: linear-gradient(
+    rgba(210, 115, 52, 0.8),
+    90%,   
+    rgba(246, 240, 225, 0.8)    
+    );
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.modfran:hover {
+    transition: all .3s ease;
+    transform: scale(1.05);
+}
+
+.precios {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.modfran h3 {
+    color: #ffffff;
+}
+
+.modfran p {
+    color: #ffffff;
+}
+
+.tmodelos {
+    border: solid #ffffff 1px;
+    border-radius: 999em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+}
+
+/*productos*/
+.productos {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.prod {
+    background-color: #f6f0e1;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 650px;
+}
+
+.prod img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+/*locales*/
+
+.locales {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+}
+
+.noml {
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.local1 {
+    background-image: url(imagenes/ubicaciones/1Avenida2.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.local2 {
+    background-image: url(imagenes/ubicaciones/2Calle3.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.local3 {
+    background-image: url(imagenes/ubicaciones/3calle7.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.local4 {
+    background-image: url(imagenes/ubicaciones/4SanJose.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.local5 {
+    background-image: url(imagenes/ubicaciones/5PlazaCrystal.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.local6 {
+    background-image: url(imagenes/ubicaciones/6WALMART.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.local7 {
+    background-image: url(imagenes/ubicaciones/7Cafetos1.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.local8 {
+    background-image: url(imagenes/ubicaciones/8Cafetos2.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.local9 {
+    background-image: url(imagenes/ubicaciones/9Pista3.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.local10 {
+    background-image: url(imagenes/ubicaciones/10PlazaSur17.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.local11 {
+    background-image: url(imagenes/ubicaciones/11CalufeMadero.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.local12 {
+    background-image: url(imagenes/ubicaciones/12PlazaValle.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.localsf {
+    background-image: url(imagenes/ubicaciones/localesSF.png);
+    max-width: 360px;
+    height: 280px;
+}
+
+.local {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 8px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.local p {
+    color: #ffffff;
+}
+
+.local:hover {
+    transform: scale(1.05);
+    transition: all .3s ease;
+}
+
+/*unete a nosotros*/
+
+.unete {
+    background-image: url(imagenes/unete_fondo.png);
+    padding-top: 60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.unete .tu {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.tp {
+    font-size: 3rem;
+}
+
+.botonunete {
+    appearance: none;
+    background-color: #5f4b3c;
+    color: #ffffff;
+    border: solid 0px;
+    border-radius: 999em;
+    padding: 15px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    width: 250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.botonunete:active {
+    transition: all .3s ease;
+    transform: scale(1.3) translateY(-2px);
+}
+
+.botonunete:hover {
+    transition: all .8s ease;
+    color: #5f4b3c; 
+    background-color: #f6f0e1;
+}
+
+/*footer*/
+
+footer {
+    color: #ffffff;
+    background-color: #0c0e20;
+    padding: 40px 20px 20px;
+}
+
+footer .tfooter {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+.ftextos img {
+    width: 25px;
+}
+
+.icono {
+    text-align: right;
+}
+
+.logob {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/*media queries*/
+
+@media (max-width: 1400px) {
+    h1 {
+        padding-top: 100px;
+    }
+
+    .hero {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /*.lomejor {
+        margin-top: -450px;
+    }*/
+}
+
+@media (max-width: 1200px) {
+    .elnav {
+        font-size: 0.7rem;    
+    }
+
+    h1 {
+        font-size: 3.3rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+  
+    .modelos {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .localsf {
+        max-width: 300px;
+        height: 220px;
+    }
+
+    .local {
+        max-width: 300px;
+        height: 220px;
+    }
+
+    .botonunete {
+        margin-top: 240px;
+        }
+
+    .unete .tu {
+        font-size: 3.3rem;
+    }
+
+    .tp {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .elnav {
+        font-size: 0.6rem;    
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    .lomejor {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .diferenciadores {
+        padding: 40px;
+    }
+
+    .localsf {
+        max-width: 240px;
+        height: 240px;
+    }
+
+    .local {
+        max-width: 240px;
+        height: 180px;
+    }
+
+    .unete .tu {
+        font-size: 3rem;
+    }
+
+    .tp {
+        font-size: 2.5rem;
+    }
+
+    .localsf {
+        background-image: url(imagenes/ubicaciones/localesSF2.png);
+}
+}
+
+@media (max-width: 991.98px) {
+    .navbar-calufe {
+        padding: 10px 18px;
+    }
+
+    .navbar-calufe .navbar-collapse {
+        padding-top: 15px;
+    }
+
+    .navbar-calufe .navbar-nav {
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .navbar-calufe .elnav {
+        display: block;
+        padding: 12px 5px;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    .elnav {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 2rem;    
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        background-image: url(imagenes/hero_fondo_2.png);
+    }
+
+    .botonunete {
+        margin-top: 180px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2.4rem;
+        padding-top: 50px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .imagen-estatica {
+        background-image: none;
+        height: auto;
+    }
+
+    .hero {
+        background-image: url(imagenes/hero_fondo_3.png);
+        height: auto;
+        padding-bottom: 60px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .thero {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .crezcamosjuntos {
+        padding-top: 60px;
+    }
+
+    .lomejor {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .modelos {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .unete .tu {
+        font-size: 2.4rem;
+    }
+
+    .tp {
+        font-size: 1.8rem;
+    }
+
+    .botonunete {
+        margin-top: 120px;
+    }
+
+    .ftextos img {
+        width: 18px;
+    }
+
+    footer .ftextos {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .productos {
+        padding-right: 40px;
+        padding-left: 40px;
+}
+
+}
+
+@media (max-width: 320px) {
+    .modelos {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .productos {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .unete {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .botonunete {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        width: 180px;
+    }
+
+    .contnav {
+        line-height: 30px;
+    }
+
+    .elnav {
+        font-size: 1rem;    
+    }
+
+}

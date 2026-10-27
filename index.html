@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calufe Franquicias</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Hoja de estilos Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-calufe">
+            <div class="container-fluid">
+                <a href="#"><img src="imagenes/Calufe-LOGO-fondo-claro.png" class="logonav" alt="Logotipo de Calufe"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuCalufe" aria-controls="menuCalufe" aria-expanded="false" aria-label="Abrir o cerrar menú">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menuCalufe">
+                <ul class="navbar-nav ms-auto contnav">
+                    <li class="nav-item">
+                        <a class="elnav" href="#formulario">
+                            CREZCAMOS JUNTOS
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="elnav" href="#lomejor">
+                            LO MEJOR DE NOSOTROS
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="elnav" href="#modelos">
+                            MODELOS DE FRANQUICIA
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="elnav" href="#productos">
+                            NUESTROS PRODUCTOS
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="elnav" href="#locales">
+                            CADA VEZ MÁS CERCA DE TI
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="elnav" href="#unete">
+                            ÚNETE A CALUFE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="row imagen-estatica">
+            <div class="col">
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-12 thero">
+                <h1>Convierte tu pasión por el café en una gran oportunidad.</h1>
+                <p>Desde 1986, compartimos nuestra pasión por el café y los sabores gourmet. Hoy, te invitamos a conocer
+                    una marca con historia y explorar la posibilidad de formar parte de ella.<br>Descubre nuestro
+                    concepto de franquicia y da el primer paso hacia tu próximo proyecto.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="crezcamosjuntos" id="formulario">
+        <section>
+            <div class="row formulario">
+
+                <div class="col">
+                </div>
+                <div class="col-10 col-sm-8 col-lg-6 col-xl-4">
+                    <form action="" method="" id="formFranquicia">
+                        <fieldset>
+                            <legend>Crezcamos Juntos</legend>
+                            <div>
+                                <input type="text" name="nombre" placeholder="Nombre" class="datos" required>
+                            </div>
+                            <div>
+                                <input type="email" name="email" placeholder="Email" class="datos" required>
+                            </div>
+                            <div>
+                                <input type="tel" name="telefono" placeholder="Teléfono" class="datos" inputmode="numeric"
+                                pattern="[0-9]+" required oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+                            </div>
+                            <div>
+                                <input type="text" name="ciudad" placeholder="Ciudad" class="datos" required>
+                            </div>
+                            <div>
+                                <input type="text" name="capital" placeholder="Capital" class="datos" required>
+                            </div>
+                            <div>
+                                <textarea name="text" name="comentarios" id="" placeholder="Comentarios" class="datos"></textarea>
+                            </div>
+                            <div>
+                                <button class="form-lead__submit boton" type="submit"   > Enviar </button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col">
+                </div>
+            </div>
+        </section>
+
+        <section class="lomejor" id="lomejor">
+            <div class="row">
+                <h2>Lo mejor de Nosotros</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-xl-6">
+                    <div class="row">
+                        <div class="col diferenciadores">
+                            <img src="imagenes/dif1.svg" alt="ícono diferenciador 1">
+                            <h3>El café como ingrediente, no solo como bebida</h3>
+                            <p>Llevamos el café a la repostería y confitería artesanal, no solamente vendemos
+                                café líquido o en grano.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6">
+                    <div class="row">
+                        <div class="col diferenciadores">
+                            <img src="imagenes/dif2.svg" alt="ícono diferenciador 2">
+                            <h3>El café como ingrediente, no solo como bebida</h3>
+                            <p>Llevamos el café a la repostería y confitería artesanal, no solamente vendemos
+                                café líquido o en grano.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6">
+                    <div class="row">
+                        <div class="col diferenciadores">
+                            <img src="imagenes/dif3.svg" alt="ícono diferenciador 3">
+                            <h3>El café como ingrediente, no solo como bebida</h3>
+                            <p>Llevamos el café a la repostería y confitería artesanal, no solamente vendemos
+                                café líquido o en grano.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6">
+                    <div class="row">
+                        <div class="col diferenciadores">
+                            <img src="imagenes/dif4.svg" alt="ícono diferenciador 4">
+                            <h3>El café como ingrediente, no solo como bebida</h3>
+                            <p>Llevamos el café a la repostería y confitería artesanal, no solamente vendemos
+                                café líquido o en grano.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </section>
+
+    <section class="modelos" id="modelos">
+        <div class="row">
+            <h2>Modelos de Franquicia</h2>
+        </div>
+        <div class="row">
+
+            <div class="col-12 col-xl-6">
+                <div class="row modfran">
+                    <div class="row tmodelos">
+                        <h3>ISLA SENCILLA</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p><span class="precios">$250,000.00</span><br>Cuota de franquicia + IVA<br><span
+                                    class="precios">$232,300.00</span><br>Inversión inicial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6">
+                <div class="row modfran">
+                    <div class="row tmodelos">
+                        <h3>ISLA CAFETERÍA</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p><span class="precios">$250,000.00</span><br>Cuota de franquicia + IVA<br><span
+                                    class="precios">$504,300.00</span><br>Inversión inicial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6">
+                <div class="row modfran">
+                    <div class="row tmodelos">
+                        <h3>BOUTIQUE</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p><span class="precios">$250,000.00</span><br>Cuota de franquicia + IVA<br><span
+                                    class="precios">$682,500.00</span><br>Inversión inicial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6">
+                <div class="row modfran">
+                    <div class="row tmodelos">
+                        <h3>BOUTIQUE BARRA</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p><span class="precios">$250,000.00</span><br>Cuota de franquicia + IVA<br><span
+                                    class="precios">$829,000.00</span><br>Inversión inicial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6">
+                <div class="row modfran">
+                    <div class="row tmodelos">
+                        <h3>BOUTIQUE CAFETERÍA</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p><span class="precios">$250,000.00</span><br>Cuota de franquicia + IVA<br><span
+                                    class="precios">$916,000.00</span><br>Inversión inicial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6">
+                <div class="row modfran">
+                    <div class="row tmodelos">
+                        <h3>CAFETERÍA BOUTIQUE</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p><span class="precios">$250,000.00</span><br>Cuota de franquicia + IVA<br><span
+                                    class="precios">$1,149,300.00</span><br>Inversión inicial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="productos" id="productos">
+        <div class="row">
+            <h2>Nuestros Productos</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="row">
+                    <div class="col prod">
+                        <img src="imagenes/p1.png" alt="Granos de café">
+                        <h3>Café Tostado</h3>
+                        <ul class="listap">
+                            <li>Caracolillo</li>
+                            <li>Claro</li>
+                            <li>Oscuro</li>
+                            <li>Cubano</li>
+                            <li>Mezcla de casa</li>
+                            <li>Descafeinado</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="row">
+                    <div class="col prod">
+                        <img src="imagenes/p2.png" alt="Galletas de café">
+                        <h3>Galletas y Biscotería</h3>
+                        <ul class="listap">
+                            <li>Galletas de mantequilla y café</li>
+                            <li>Galletas de mantequilla y café - Sugar Free</li>
+                            <li>Biscotti de mantequilla y café</li>
+                            <li>Negritas de café</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="row">
+                    <div class="col prod">
+                        <img src="imagenes/p3.png" alt="Cordobesos">
+                        <h3>Confitería</h3>
+                        <ul class="listap">
+                            <li>Bombones de café</li>
+                            <li>Bombones con cobertura de chocolate</li>
+                            <li>Gomitas de capuccino</li>
+                            <li>Gomitas de espresso doppio</li>
+                            <li>Café cubierto con chocolate</li>
+                            <li>Natillas de café</li>
+                            <li>Cordobesos®</li>
+                            <li>Caramelo macizo de café</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="row">
+                    <div class="col prod">
+                        <img src="imagenes/p4.png" alt="Licores">
+                        <h3>Licores</h3>
+                        <ul class="listap">
+                            <li>Caciña®</li>
+                            <li>Licor de café</li>
+                            <li>Crema cordobesa®</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="locales" id="locales">
+
+        <div class="row">
+            <h2>Cada vez más cerca de ti</h2>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-10 col-md-6 col-xl-3 local1 local">
+                <p><span class="noml">Avenida 2</span><br>Córdoba, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 local2 local">
+                <p><span class="noml">Calle 3</span><br>Córdoba, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 local3 local">
+                <p><span class="noml">Calle 7</span><br>Córdoba, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 local4 local">
+                <p><span class="noml">San José</span><br>Córdoba, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 local5 local">
+                <p><span class="noml">Plaza Crystal</span><br>Córdoba, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 local6 local">
+                <p><span class="noml">Walmart</span><br>Córdoba, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 local7 local">
+                <p><span class="noml">Cafetos 1</span><br>Córdoba, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 local8 local">
+                <p><span class="noml">Cafetos 2</span><br>Córdoba, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 local9 local">
+                <p><span class="noml">Pista 3</span><br>Córdoba, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 local10 local">
+                <p><span class="noml">Plaza Sur 17</span><br>Orizaba, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 local11 local">
+                <p><span class="noml">Calufe Madero</span><br>Orizaba, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 local12 local">
+                <p><span class="noml">Plaza Valle</span><br>Orizaba, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 localsf local">
+                <p><span class="noml">Walmart Arco Sur</span><br>Xalapa, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 localsf local">
+                <p><span class="noml">Diego Leño</span><br>Xalapa, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 localsf local">
+                <p><span class="noml">Plaza Ánimas</span><br>Xalapa, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 localsf local">
+                <p><span class="noml">Plaza Las Américas</span><br>Veracruz, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 localsf local">
+                <p><span class="noml">José Martí</span><br>Veracruz, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 localsf local">
+                <p><span class="noml">Rafael Cuervo</span><br>Veracruz, Veracruz</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 localsf local">
+                <p><span class="noml">Plaza Soriana</span><br>Ciudad del Carmen, Campeche</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 localsf local">
+                <p><span class="noml">Plaza Loreto</span><br>Ciudad de México</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 localsf local">
+                <p><span class="noml">Nápoles</span><br>Ciudad de México</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 localsf local">
+                <p><span class="noml">CDMX Downtown</span><br>Ciudad de México</p>
+            </div>
+            <div class="col-10 col-md-6 col-xl-3 localsf local">
+                <p><span class="noml">Apodaca (Plaza Sendero la Fé)</span><br>Nuevo León</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="unete" id="unete">
+        <div class="row">
+            <p><span class="tp">Tu próxima gran<br>inversión comienza aquí.</span><br><span class="tu">Da el primer paso hoy.</span></p>
+            <a class="botonunete" href="#formulario">Únete a Calufe</a>
+        </div>
+    </section>
+
+    <footer>
+        <section class="row">
+            <section class="col-10 col-sm-6">
+                <img class="logob" src="imagenes/Calufe-LOGO-blanco.png" alt="Logotipo Blanco de Calufe">
+            </section>
+            <section class="col-12 col-sm-6 ftextos">
+                <section class="row">
+                    <p class="tfooter">Contáctanos</p>
+                </section>
+                <section class="row">
+                    <section class="col-1 icono">
+                        <img src="imagenes/correo.svg" alt="ícono correo">
+                    </section>
+                    <section class="col">
+                        <a href="mailto:consultas@alcazar.com.mx">consultas@alcazar.com.mx</a>
+                    </section>
+                </section>
+                <section class="row">
+                    <section class="col-1 icono">
+                        <img src="imagenes/whatsapp.svg" alt="ícono whataspp">
+                    </section>
+                    <section class="col">
+                        <p>+52 (55) 5264 0888</p>
+                    </section>
+                </section>
+                <section class="row">
+                    <a class="tfooter" href="https://alcazar.com.mx/aviso-de-privacidad/" >Aviso de Privacidad</a>
+                </section>
+                <section class="row">
+                    <p>@Alcázar & Compañía | © 2026 CALUFE. All rights reserved.</p>
+                </section>
+            </section>
+        </section>
+    </footer>
+
+    <script>
+    const formulario = document.getElementById("formFranquicia");
+
+    formulario.addEventListener("submit", async function (event) {
+        event.preventDefault();
+
+        const resultado = await Swal.fire({
+            title: "¿Enviar tu solicitud?",
+            text: "Verifica que tus datos sean correctos antes de continuar.",
+            icon: "question",
+            showCancelButton: true,
+            confirmButtonText: "Sí, continuar",
+            cancelButtonText: "Revisar datos",
+            confirmButtonColor: "#d27334",
+            cancelButtonColor: "#d27334",
+            background: "#f6f0e1",
+            color: "#5f4b3c",
+            reverseButtons: true
+        });
+
+        if (resultado.isConfirmed) {
+            await Swal.fire({
+                title: "¡Gracias por tu interés!",
+                text: "El formulario se ha enviado con éxito",
+                icon: "success",
+                confirmButtonText: "Entendido",
+                confirmButtonColor: "#d27334",
+                background: "#f6f0e1",
+                color: "#5f4b3c"
+            });
+        }
+    });
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
